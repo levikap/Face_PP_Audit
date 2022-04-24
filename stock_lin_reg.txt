@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         Age Difference   R-squared:                       0.065
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     1.076
+Date:                Sat, 23 Apr 2022   Prob (F-statistic):              0.383
+Time:                        10:25:16   Log-Likelihood:                 101.92
+No. Observations:                 100   AIC:                            -189.8
+Df Residuals:                      93   BIC:                            -171.6
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          1.0216      0.024     42.640      0.000       0.974       1.069
+black         -0.0100      0.018     -0.552      0.582      -0.046       0.026
+female        -0.0356      0.018     -1.963      0.053      -0.072       0.000
+child         -0.0183      0.029     -0.638      0.525      -0.075       0.039
+middle-age    -0.0254      0.029     -0.888      0.377      -0.082       0.031
+old            0.0103      0.029      0.360      0.720      -0.047       0.067
+teen           0.0046      0.029      0.160      0.873      -0.052       0.061
+==============================================================================
+Omnibus:                       30.098   Durbin-Watson:                   2.093
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               61.928
+Skew:                          -1.163   Prob(JB):                     3.57e-14
+Kurtosis:                       6.074   Cond. No.                         7.18
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
